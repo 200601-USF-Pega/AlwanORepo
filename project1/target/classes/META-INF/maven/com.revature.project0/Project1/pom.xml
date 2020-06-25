@@ -8,7 +8,7 @@
 	<artifactId>Project1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>Project0</name>
+	<name>Project1</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -50,7 +50,12 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<!-- Set this to the respective version -->
+			<version>3.0.5.RELEASE</version>
+		</dependency>
 	</dependencies>
 
 	<build>
