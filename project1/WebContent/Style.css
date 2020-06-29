@@ -75,9 +75,10 @@ h1{
 }
 .loginbox a{
 	text-decoration: none;
+	font-size: 12px;
 	fort-size: 8px;
 	line-height: 15px;
-	color: darkgrey;
+	color: #040404;
 }
 .loginbox a:hover{
 	color: #f4fffc;

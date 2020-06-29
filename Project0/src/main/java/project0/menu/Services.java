@@ -1,23 +1,23 @@
-package project1.menu;
+package project0.menu;
 
 
 
-import java.sql.Connection;
+//import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import project1.connection.ConnectionService;
-import project1.dao.RepoDBService;
-import project1.models.ProjectModel;
+//import project0.connection.ConnectionService;
+import project0.dao.RepoDBService;
+import project0.models.ProjectModel;
 
 public class Services{
 	
 		private ArrayList<ProjectModel> projectList = new ArrayList<ProjectModel>();
 		private final Scanner scan = new Scanner(System.in);
 		
-		ConnectionService objConnection = new ConnectionService();
+		//ConnectionService objConnection = new ConnectionService();
 		Employee employee = new Employee();
-		Connection connection = objConnection.getConnection();
+		//Connection connection = objConnection.getConnection();
 		RepoDBService DBService = new RepoDBService();
 		String taskName; 
 		String dueDate; 

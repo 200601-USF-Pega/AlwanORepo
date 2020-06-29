@@ -1,11 +1,10 @@
 package project1.menu;
 
 
-import project1.models.ProjectModel;
-
-public class CreateProject extends ProjectModel
-{
+public class CreateProject {
 	
+	private String name;
+	private int duration;
 	private int cost;
 
 	public CreateProject()
@@ -16,13 +15,29 @@ public class CreateProject extends ProjectModel
 
 	public CreateProject(String name, int date, int Cost)
 	{
-		super(name, date);
-		
+		this.name = name;
+		this.duration = date;
 		this.cost = Cost;
 
 	}
 
 	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getDuration() {
+		return duration;
+	}
+
+	public void setDuration(int duration) {
+		this.duration = duration;
+	}
+
 	public int getCost()
 	{
 		return cost;
@@ -33,12 +48,6 @@ public class CreateProject extends ProjectModel
 		this.cost = cost;
 	}
 
-	@Override
-	public String toString()
-	{
-		return " Project name: " + getName() + " Project Duration: "
-				+ getNumber()+" Month " + " Project estimated cost: " + getCost() + "$";
-	}
 	
 }
 

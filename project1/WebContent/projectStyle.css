@@ -1,0 +1,33 @@
+body {
+    background-color:#3287f2;
+}
+h1 {
+    color:#000000;
+    text-align: center;
+    font-weight: bold;
+}
+h4 {
+    color:#022873;
+    text-align: center;
+    font-weight: bolder;
+}
+p {
+    color:#022873;
+    text-align: center;
+}
+nav {
+    background-color:#023373;
+    color:#FFE7B5;
+}
+button {
+    background-color:#BF2A45;
+    color:#F2EFDF;
+    text-align: center;
+    opacity:0.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+button:hover {
+    opacity:15;
+    color: #f4fffc;
+}

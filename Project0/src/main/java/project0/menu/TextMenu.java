@@ -1,8 +1,8 @@
-package project1.menu;
+package project0.menu;
 
 import java.util.Scanner;
 
-import project1.dao.RepoDBService;
+import project0.dao.RepoDBService;
 
 public class TextMenu implements Menu
 {

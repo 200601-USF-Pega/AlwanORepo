@@ -1,4 +1,4 @@
-package project1.menu;
+package project0.menu;
 
 public interface Menu
 {

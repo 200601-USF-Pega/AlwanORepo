@@ -1,52 +1,45 @@
 
 package project1.menu;
 
-import java.util.Arrays;
 
-import project1.models.ProjectModel;
+public class Employee{
 
-public class Employee extends ProjectModel
-{
-	
-	 String[] member;
-	 String[] email;
-	public Employee()
-	{
+	private int id;
+	private String name;
+	private String email;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Employee() {
 		super();
 	}
 
-	public Employee(String name, int teamSize, String[] member, String[] email)
-	{
-		super(name, teamSize);
-		this.member = member; 
+	public Employee(int id, String name, String email) {
+		this.id = id;
+		this.name = name;
 		this.email = email;
 	}
-	public String[] getMember()
-	{
-		return member;
-	}
 
-	public void setMember(String[] members)
-	{
-		this.member = members;
-	}
-	
-	public String[] getEmail()
-	{
+	public String getEmail() {
 		return email;
 	}
 
-	public void setEmail(String[] emails)
-	{
+	public void setEmail(String emails) {
 		this.email = emails;
 	}
 
-	@Override
-	public String toString()
-	{
-		return "Team name: " + getName() + " Members of team: (" + getNumber()
-		+ ") Members of the team: " + Arrays.toString(getMember())+ "]";
-	}
-
 }
-

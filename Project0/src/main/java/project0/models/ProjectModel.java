@@ -1,4 +1,4 @@
-package project1.models;
+package project0.models;
 import java.io.Serializable;
 
 public abstract class ProjectModel implements Serializable {
